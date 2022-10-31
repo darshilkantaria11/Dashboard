@@ -1,0 +1,39 @@
+.constnav{
+    display: flex;
+    width: auto;
+    border-bottom: 0.1px solid black;
+    padding-left: 30px;
+    
+}
+.snapnav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 0px;
+}
+.navicon{
+    margin: 8px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-start-end-radius: 30px;
+    border-end-start-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+}
+.navicon:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    
+    
+}
+.imgs{
+    height: 5vh;
+    
+}
